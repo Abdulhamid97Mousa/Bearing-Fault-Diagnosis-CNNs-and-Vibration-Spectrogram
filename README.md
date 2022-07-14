@@ -12,7 +12,6 @@ This is a Python code implementation of the following publications:
 - PLEASE PAY ATTENTION HERE, EVERYTHING YOU SEE DOWN HERE IS ACTUALLY WRITTEN BY THE AUTHOR OF THIS PAPER, I haven't used this Shaft speed dataset, I only tried to use this approach on CWRU bearing dataset to verify the feasibility of this approach.
 
 2. Proposed Bearing Fault Diagnosis Method: 
-3. 
 An overview of the proposed bearing fault diagnosis method is shown in Figure 1. First, the vibration signals are split into fixed-cycle 5 seconds segments. The Short-Time Fourier Transform (STFT) is then applied for each signal segment to produce the spectrogram. 
 
 Then, spectrogram images generated from the vibration signals corresponding to the bearing faults are used to train network architecture CNN-VGG16, and the trained CNN-VGG16 model is used to classify bearing faults automatically in the test stage.
