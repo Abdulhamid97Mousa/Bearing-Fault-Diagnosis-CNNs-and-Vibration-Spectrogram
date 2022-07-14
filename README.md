@@ -9,6 +9,8 @@ This is a Python code implementation of the following publications:
 - https://www.mdpi.com/2076-3417/10/18/6385
 - The authors of this paper decided to use Matlab to extract a time domain signal that does not change over time, he has a Matlab tool to apply this feature engineering approach prior to the time domain to frequency domain conversion. I have decided not to use the feature engineering, instead, I've kept the time domain signal intact and I've applied STFT to the entirety of the signal.
 
+- PLEASE PAY ATTENTION HERE, EVERYTHING YOU SEE DOWN HERE IS ACTUALLY WRITTEN BY THE AUTHOR OF THIS PAPER, I haven't used this Shaft speed dataset, I only tried to use this approach on CWRU bearing dataset to verify the efficiency of this approach.
+
 2. Proposed Bearing Fault Diagnosis Method: 
 An overview of the proposed bearing fault diagnosis method is shown in Figure 1. First, the vibration signals are split into fixed-cycle 5 seconds segments. The Short-Time Fourier Transform (STFT) is then applied for each signal segment to produce the spectrogram. 
 
