@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Connect to Notion step
         id: notion
-        uses: alessandrobelli/NotionHook@1.1
+        uses: Abdulhamid97Mousa/Bearing-Fault-Diagnosis-using-Convolutional-Neural-Networks-and-Vibration-Spectrogram
         with:
           notion_secret: ${{ secrets.NOTION_SECRET }}
           notion_database: ${{ secrets.NOTION_DATABASE }}
