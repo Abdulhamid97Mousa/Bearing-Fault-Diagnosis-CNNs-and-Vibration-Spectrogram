@@ -12,4 +12,4 @@ jobs:
           notion_secret: ${{ secrets.NOTION_SECRET }}
           notion_database: ${{ secrets.NOTION_DATABASE }}
           files_format: 'text-list'
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.secret_UdCweIPE4CSHVEEVn1pK2WVD1tF0HQLk8yvP6qpc3Es }}
