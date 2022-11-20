@@ -35,3 +35,8 @@ To efficiently apply STFT to bearing fault signals, the STFT matrix can be deter
 Figure 2 shows the spectrograms produced by applying STFT to vibrations signals with four different shaft speeds (1730, 1750, 1772, and 1797 RPM) with three kinds of faults (inner race fault, outer race fault, and roller fault).
 
 - I haven't use VGG model either, i've used Resnet18.
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Abdulhamid97Mousa/Bearing-Fault-Diagnosis-CNNs-and-Vibration-Spectrogram.svg)](https://starchart.cc/Abdulhamid97Mousa/Bearing-Fault-Diagnosis-CNNs-and-Vibration-Spectrogram)
